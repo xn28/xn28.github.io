@@ -25,6 +25,8 @@ body {
   filter: grayscale(55%);
 }
 
+
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -37,8 +39,9 @@ body {
 }
 
 .hero h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Alkatra', sans-serif;
   font-size: 6rem;
+  color: #6495ED;
 }
 
 .hero h4 {
@@ -49,9 +52,15 @@ body {
   font-size: 1.4rem;
 }
 
+.nama-tamu {
+color: #6495ED;
+font-size: 3rem;
+font-family: 'Alkatra', sans-serif;
+}
+
 .hero a {
-  color: var(--pink);
-  background-color: white;
+  color: white;
+  background-color: var(--blue);
   box-shadow: var(--shadow);
 }
 
@@ -71,7 +80,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: 'Sacramento', cursive;
+  font-family: 'teko', cursive;
   font-size: 3.2rem;
   font-weight: bold;
 }
@@ -85,7 +94,7 @@ body {
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
 }
 
@@ -96,7 +105,7 @@ body {
 .rsvp h2,
 .gifts h2 {
   color: var(--pink);
-  font-family: 'Sacramento';
+  font-family: "Dancing Script", Arial, serif;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -113,11 +122,11 @@ body {
 }
 
 .home .couple {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .home .couple h3 {
-  font-family: 'Sacramento';
+  font-family: "Dancing Script", Arial, serif;
   font-size: 2.4rem;
   color: var(--pink);
 }
@@ -137,11 +146,15 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(65px);
 }
-
+.home .infoo{
+  margin-top: 20px;
+}
 .home .heart i {
   margin: auto;
   color: var(--pink);
 }
+
+
 
 .info {
   background-color: var(--bg);
