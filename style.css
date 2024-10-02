@@ -41,7 +41,10 @@ body {
 .hero h1 {
   font-family: 'Alkatra', sans-serif;
   font-size: 6rem;
+  position: absolute;
+  top: 40px;
   color: #6495ED;
+  
 }
 
 .hero h4 {
